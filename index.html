@@ -13,6 +13,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+ 
+
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+  
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="/img/images.png" type="png" />
   </head>
@@ -20,23 +35,23 @@
     <!-- navbar top  social links-->
     <header>
       <nav>
-        <ul id="nav-1">
-          <li type="none">
+        <ul id="nav-1" type="none">
+          <li>
             <a href="https://www.instagram.com/rufus_s_am/" target="_blank"
               ><i class="fa-brands fa-instagram"></i>
             </a>
           </li>
-          <li type="none">
+          <li>
             <a href="https://www.facebook.com/s.rufus.75" target="_blank"
               ><i class="fa-brands fa-facebook"></i>
             </a>
           </li>
-          <li type="none">
+          <li>
             <a href="https://en.wikipedia.org/wiki/Twitter" target="_blank"
               ><i class="fa-brands fa-twitter"></i>
             </a>
           </li>
-          <li type="none">
+          <li>
             <a href="https://www.google.co.in/" target="_blank"
               ><i class="fa-brands fa-google"></i>
             </a>
@@ -44,23 +59,24 @@
           <!-- </ul> -->
 
           <!-- heading -->
-          <li type="none"><strong>FURNITURE</strong></li>
+          <li><strong>FURNITURE</strong></li>
           <!-- <ul class="nav-1"> -->
-          <li type="none"><i class="fa-solid fa-couch"></i></li>
-          <li type="none"><i class="fa-solid fa-magnifying-glass"></i></li>
-          <li type="none"><i class="fa-regular fa-heart"></i></li>
-          <li type="none"><i class="fa-solid fa-cart-shopping"></i></li>
+          <li><i class="fa-solid fa-couch"></i></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-regular fa-heart"></i></li>
+          <li><i class="fa-solid fa-cart-shopping"></i></li>
         </ul>
-        <hr />
       </nav>
       <!-- navbar links -->
       <nav>
         <ul id="nav-2">
           <li type="none">
-            <a class="nav-link" href="#" target="_blank">Home</a>
+            <a class="nav-link" href="#" class="link" target="_blank">Home</a>
           </li>
           <li type="none">
-            <a class="nav-link" href="About.html" target="_blank">About</a>
+            <a class="nav-link" href="About.html" class="link" target="_blank"
+              >About</a
+            >
           </li>
           <li type="none">
             <a class="nav-link" href="top-chair.htm" target="_blank"
@@ -78,16 +94,17 @@
           </li>
         </ul>
       </nav>
-      <hr />
-
-      <!-- main heading -->
-      <h1>
-        Make Yout Home <br />
-        &nbsp;&nbsp;&nbsp;Modern Design.
-      </h1>
-      <p>Make Your Home Modern Design Starts with Our Furniture ✌️✌️</p>
-      <button>Shop Now</button>
     </header>
+
+    <!-- main heading -->
+    <div class="head">
+      <div class="head-ch">
+        <h1>Make Your Home Modern Design.</h1>
+        <p id="pg">Make Your Home Modern Design Starts with Our Furniture ✌️✌️</p>
+        <button><i class="fa-brands fa-btn">Shop Now</i></button>
+        <!-- <button type="button" class="btn btn-dark">Dark</button> -->
+      </div>
+    </div>
     <br />
 
     <!-- main content -->
@@ -98,28 +115,29 @@
       <br />
       <!-- box-1 -->
       <!-- <section id="section-1"> -->
-      <section>
+      <section class="card-1">
         <article class="box-1">
           <figure>
             <img
               src="./img/Customiz.jpg"
               alt="USER FRIENDLY"
-              height="400"
-              width="500"
+              
             />
             <figcaption><strong>CUSTOM MENUS</strong></figcaption>
           </figure>
+          <div class="card-2">
           <h5>CUSTOM MENUS</h5>
-          <p>
-            This emphasizes both the customizability and comfort aspects of your
-            sofas <br />
-            This focuses on the "menu" system for choosing options while
-            highlighting the <br />
-            variety of styles available.
+          <p >
+            This emphasizes both the customizability <br>
+             and comfort aspects 
+             of your sofas <br> This focuses on the "menu" system  <br> for choosing 
+             options while highlighting <br> the variety of styles available.
           </p>
-          <button>View More</button>
-          <br />
-          <br />
+          <br>
+          <br>
+          <button class="b-1">View More</button>
+        </div>
+         
         </article>
 
         <!-- box-2 -->
@@ -130,22 +148,22 @@
               src="./img/smart.jpg"
               alt="SMARTEST WAY
               "
-              height="400"
-              width="500"
             />
             <figcaption><strong>SMARTEST WAY</strong></figcaption>
           </figure>
-          <h5>SMARTEST WAY</h5>
+          <div class="card-2">
+          <h5 >SMARTEST WAY</h5>
           <p>
-            This type allows you to rearrange sections for different layouts and
-            adjust features <br />
-            like headrests and armrests for optimal comfort Choose from a
-            variety of fabrics and <br />leathers with features like stain
-            resistance or easy cleaning.
+            This type allows you to rearrange sections  <br>
+            for different layouts 
+             and adjust <br> features like headrests and armrests for <br> optimal  
+             comfort Choose from a variety <br> of fabrics and leathers with 
+             features like <br> stain resistance or easy cleaning.
           </p>
+          <br>
           <button>View More</button>
+        </div>
         </article>
-        <br /><br />
 
         <!-- box-3 -->
 
@@ -154,99 +172,109 @@
             <img
               src="./img/user.jpg"
               alt="USER FRIENDLY"
-              height="400"
-              width="500"
+            
             />
             <figcaption><strong>USER FRIENDLY</strong></figcaption>
           </figure>
-          <h5>USER FRIENDLY</h5>
-          <p>
-            The sofa should offer good back and leg support to prevent pain and
-            promote relaxation. <br />
-            Comfortable cushions that hold their shape but aren't too soft for
-            good posture. <br />A depth that allows you to sit comfortably with
-            your feet flat on the floor.
+          <div class="card-2">
+          <h5 >USER FRIENDLY</h5>
+          <p >
+            The sofa should offer good back <br>
+            and leg support to prevent pain <br>
+            and promote relaxation. Comfortable  <br>
+           aren't too soft for good posture. <br />
+           A depth that allows you to sit <br>
+             comfortably with
+           <br> your feet flat on the floor.
           </p>
           <button>View More</button>
+         
+        </div>
         </article>
       </section>
-      <br />
+    
       <br />
       <hr />
       <!-- card-2 -->
       <!-- box-1 -->
 
-      <section>
-        <article>
+      <section class="card-1-2">
+        <article class="box-1">
           <figure>
             <img
               src="./img/CHAIR.jpg"
               alt="BEST CHAIR"
-              height="400"
-              width="500"
+             
             />
             <figcaption><b>BEST CHAIR</b></figcaption>
           </figure>
-          <h5>BEST CHAIR</h5>
-          <p>
-            Emphasize the chair's comfort features like supportive cushions,
-            ergonomic design, <br />
-            or adjustable settings.Showcase the high-quality materials and
-            construction for a <br />long-lasting investment. Position the chair
-            within a specific style category <br />(modern, traditional, etc.)
-            and how it complements different living spaces.
+          <div class="card-2">
+            <h5>BEST CHAIR</h5>
+          <p >
+            Emphasize the chair's comfort features <br> like supportive  
+            cushions, ergonomic design,or <br> adjustable settings.Showcase 
+            the high-quality<br>  materials and construction for a long-lasting<br>  investment. Position the chair
+            within a specific <br />style category (modern, traditional, etc.)
+            and <br>how  it complements different living spaces.
           </p>
+          <br>
           <button>View More</button>
+          </div>
+          
         </article>
 
         <br /><br />
         <!-- box-2 -->
 
-        <article>
+        <article class="box-1">
           <figure>
             <img
               src="./img/modern-styled-entryway.jpg"
               alt="SOFA"
-              height="400"
-              width="500"
+            
             />
             <figcaption><b>SOFA</b></figcaption>
           </figure>
-          <h5>SOFA</h5>
+          <div class="card-2">
+            <h5>SOFA</h5>
           <p>
-            Experience the ultimate comfort with our sofa featuring plush
-            cushions and supportive <br />
-            construction that cradles your body for hours of relaxation this is
-            designed for <br />effortless comfort. Supportive lumbar support and
-            generously sized cushions <br />ensure a perfect spot to kick back
+            Experience the ultimate comfort with  <br> our sofa featuring plush
+            cushions <br> and supportive construction that  cradles <br>this is
+            designed for <br> effortless comfort. Supportive lumbar support  <br>and
+            generously sized cushions <br> ensure a perfect spot to kick back <br>
             and relax after a long day.
           </p>
           <button>View More</button>
         </article>
-        <br /><br />
+          </div>
+          
+        <br />
 
         <!-- box-3 -->
 
-        <article>
+        <article class="box-1">
           <figure>
             <img
               src="./img/realistic-interior-design-with-furniture.jpg"
               alt="WORK DESK"
-              height="400"
-              width="500"
+            
             />
             <figcaption><b>WORK DESK</b></figcaption>
-          </figure>
-          <h5>WORK DESK</h5>
-          <p>
-            Prioritizing ergonomic features and adjustability for pain-free work
-            sessions.<br />
-            Needing ample workspace, storage solutions, and integrated features
-            for seamless <br />
-            workflow. Home Office Hero: Requiring a stylish and functional desk
-            that <br />blends with your home décor.
-          </p>
-          <button>View More</button>
+          </figure> 
+          <div class="card-2">
+            <h5>WORK DESK</h5>
+            <p>
+              Prioritizing ergonomic features and <br>adjustability for 
+              pain-free work sessions. <br> Needing ample workspace,
+              storage solutions, <br> and integrated features  for 
+              seamless <br> workflow. Home Office Hero: Requiring<br>
+              stylish and functional desk that <br />
+              blends with your home décor.
+            </p>
+            <br>
+            <button>View More</button>
+          </div>
+         
         </article>
       </section>
       <br />
@@ -254,132 +282,144 @@
       <hr />
       <!-- card-3 -->
 
+      <hr>
       <h3>TRENDLY PRODUCTS</h3>
+      <hr>
 
       <!-- box-1 -->
 
-      <section>
-        <article>
+      <section class="card-1-3">
+        <article class="box-1">
           <figure>
             <img
               src="./img/BEST-SOFA.jpg"
               alt="BEST SOFA"
-              height="400"
-              width="500"
+           
             />
             <figcaption><strong>BEST SOFA</strong></figcaption>
           </figure>
+          <div class="card-2">
           <h5>BEST SOFA</h5>
           <p>
-            This emphasizes both the customizability and comfort aspects of your
-            sofas <br />
-            This focuses on the "menu" system for choosing options while
-            highlighting the <br />
+            This emphasizes both the customizability and <br> comfort aspects of your
+             sofas This <br>focuses on the "menu" system for <br> choosing  
+            options while highlighting the <br />
             variety of styles available.
           </p>
+          <br>
+          <br>
           <button>View More</button>
+        </div>
         </article>
-        <br /><br />
+       
         <!-- box-2 -->
 
-        <article>
+        <article class="box-1">
           <figure>
             <img src="./img/NEW.jpg" alt="NEW SOFA" height="400" width="500" />
             <figcaption><strong>NEW SOFA</strong></figcaption>
           </figure>
+          <div class="card-2">
           <h5>NEW SOFA</h5>
           <p>
-            Ergonomic features and adjustability for pain-free work sessions.
-            Needing ample <br />
-            workspace, storage solutions, and integrated features for seamless
-            workflow. <br />
-            Home Office Hero: Requiring a stylish and functional desk that
-            blends with your <br />
-            home décor.
+            Ergonomic features and adjustability for <br>pain-free work sessions.
+            Needing ample <br>workspace, storage solutions, and <br>integrated
+             features for seamless workflow. <br />
+            Home Office Hero: Requiring a stylish <br> and functional 
+          desk that blends with your 
+          <br> home décor.
           </p>
           <button>View More</button>
+        </div>
         </article>
         <br /><br />
-
+        </section>
+        <br><hr>
         <!-- box-3 -->
-
-        <article>
+        <section class="card-1-4">
+        <article class="box-1">
           <figure>
             <img
               src="./img/NEW CHAIR.jpg"
               alt="Sofa"
-              height="400"
-              width="500"
+             
             />
             <figcaption><strong>Sofa</strong></figcaption>
           </figure>
+          <div class="card-2">
           <h5>CUSTOM MENUS</h5>
           <p>
-            emphasizes both the customizability and comfort aspects of your
-            sofas <br />
-            This focuses on the "menu" system for choosing options while
-            highlighting the <br />
+            emphasizes both the customizability and  <br> comfort  aspects of your
+            sofas This focuses   <br> on the "menu" system for choosing <br>
+             options while  highlighting the <br />
             variety of styles available.
           </p>
           <button>View More</button>
+        </div>
         </article>
-        <br /><br />
+       
 
         <!-- box-4 -->
 
-        <article>
+        <article class="box-1">
           <figure>
             <img
               src="./img/MODERN-CHAIR.jpg"
               alt="MODERN CHAIR"
-              height="400"
-              width="500"
+             
             />
             <figcaption><strong>MODERN CHAIR</strong></figcaption>
           </figure>
+          <div class="card-2">
           <h5>MODERN CHAIR</h5>
           <p>
-            system for choosing options while highlighting the <br />
-            variety of styles available.This emphasizes both the customizability
-            and comfort <br />aspects of your sofas This focuses on the "menu"
+            system for choosing options while  <br> highlighting the 
+            variety of styles available.  <br>This emphasizes both 
+            the rcustomizability  <br> and comfort
+            aspects of your sofas This  <br> focuses on the "menu"
           </p>
           <button>View More</button>
+        </div>
         </article>
       </section>
-      <br /><br />
+      <br>
 
       <!-- about -->
 
-      <section>
-        <article>
+      <!-- <section class="card-1-5">
+        <article class="box-1">
           <h1>ABOUT</h1>
           <figure>
             <img src="./img/shop-about.jpg" alt="" height="400" width="500" />
             <figcaption><strong>About</strong></figcaption>
           </figure>
+          <div class="card-2">
           <p>
-            Experience the ultimate comfort with our sofa featuring plush
-            cushions and supportive <br />
-            construction that cradles your body for hours of relaxation this is
-            designed for effortless <br />comfort. Supportive lumbar support and
-            generously sized cushions ensure a <br />perfect spot to kick back
+            Experience the ultimate comfort with our sofa featuring <br>
+            plush cushions and supportive construction that <br> 
+            cradles your body for hours of relaxation this is <br>
+            designed for effortless comfort. Supportive <br>
+            lumbar support and generously sized cushions<br />
+            ensure a perfect spot to kick back <br>
             and relax after a long day.
           </p>
           <button>Read More...</button>
+        </div>
         </article>
       </section>
     </main>
     <br />
     <br />
     <hr />
-    <!-- Table -->
+    <!-- Table --> -->
     <section>
-      <article>
-        <h3>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Our Furniture Collection
-        </h3>
-        <table border="2px solid black" bgcolor="#e0e0e0">
+      <h3>
+        Our Furniture Collection
+      </h3>
+      <article class="table">
+        
+        <table
+        >
           <br />
 
           <tr>
@@ -394,7 +434,7 @@
           </tr>
           <tr>
             <td>Modern Dining Table</td>
-            <td>Limited Stock)</td>
+            <td>Limited Stock</td>
             <td>$425.50</td>
           </tr>
           <tr>
@@ -448,9 +488,32 @@
         find the perfect sofa to express your style and create lasting memories
         in your dream home.
       </p>
+      <br>
+      <div class="btn-icons">
+        <div>
+          <i class="fa-solid fa-store"> &nbsp;95+</i>
+                     Experience Stores
+                    Across India
+        </div>
+        <div >
+          <i class="fa-solid fa-truck"></i>
+          350+ Delivery Centers Across India
+          </div>
+        <div >
+          <i class="fa-solid fa-thumbs-up"></i>
+          10 Lakh + Satisfied Customers
+        </div>
+        <div >
+          <i class="fa-solid fa-award"></i>
+          Lowest Price Guarantee
+        </div>
+        <div >
+          <i class="fa-solid fa-award"></i>
+          36 Months* Warranty
+        </div>
+      </div>
       <!-- icons -->
       <h3>Social Media Links</h3>
-      <hr />
       <nav>
         <ul id="nav-3">
           <li type="none">
@@ -475,12 +538,11 @@
           </li>
         </ul>
       </nav>
-      <hr />
       &copy; Copyright <strong><span>Furniture</span></strong
       >. All Rights Reserved
       <h5>CodeWith Rufus</h5>
       <hr />
-      <center><a href="#">Back To Top</a></center>
+      <a href="#">Back To Top</a>
       <hr />
     </footer>
   </body>

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* header */
+  #nav-1,
+  #nav-2,
+  #nav-3,
+  #navbar-1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 20px;
+    background-color: #373737;
+    border-radius: 15px;
+    padding: 20px;
+    scroll-behavior: smooth;
+    /* place-content: space-evenly; */
+  }
+  ul li a {
+    color: whitesmoke;
+  }
+  #nav-1 {
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  #nav-1 li:hover {
+    color: orange;
+    transform: translate(2px, 2px);
+  }
+  .brand {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    animation: scroll-left;
+    animation-duration: 2s;
+    /* clip-path: circle(); */
+  }
+  @keyframes scroll-left {
+    0%{
+      transform: translateX(1000px);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
+
+  .brand-furniture {
+    text-align: center;
+    line-height: 2.2;
+    margin-bottom: 4rem;
+  }
+  
+  ul li a:hover {
+    color: orange;
+    transform: translate(2px, 2px);
+  }
+  .center,
+  footer {
+    text-align: center;
+  }
+  .competitor{
+    text-align: center;
+  }
+
+  img {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+  }
+  
+  img:hover {
+    transform: translate(2px, 2px);
+    scale: 1.07;
+    transition: 0.3s ease-in-out;
+  }
+  h2,p {
+    text-align: center;
+  }
+  button {
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+  }
+  
+  button a:hover {
+    background-color: rgb(34, 28, 28);
+    color: whitesmoke;
+    border-radius: 10px;
+    transform: translate(2px, 2px);
+    transition: ease-in-out;
+    transition-duration: 1s;
+    text-decoration: none;
+    padding: 3px;
+  
+    /* scale: 1.3; */
+  }
+  
+  footer ul li a:hover {
+    border-bottom: 5px;
+    color: black;
+    transform: translate(2px, 3px);
+    transition: ease-in-out;
+    transition-duration: 100ms;
+  }
+  
+  p,
+  a,
+  button {
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: 16;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 5rem 0 0 1rem;
+  }
+  
+  footer h1 {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  footer .btn-icons {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    gap: 10px;
+    padding: 5px;
+    margin: 20px 0;
+    /* display: grid;
+      grid-template-columns:repeat(4,minmax(150px, 1fr));
+      gap: 30px;
+      margin: 20px 0; */
+  }
+  footer h3 {
+    text-align: center;
+  }
+  
+  footer .btn-icons div:hover {
+    color: orange;
+    box-shadow: 2px;
+  }
+  footer h2:hover {
+    color: orange;
+    box-shadow: 2px;
+  }
+  
+  footer p {
+    color: whitesmoke;
+    padding: 20px;
+  }
+  
